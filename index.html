@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>CSS Cheat Sheet</title>
+  </head>
+  <body>
+    <header>
+      <h1>Algos and Answers</h1>
+      <p>This is a cheat sheet for the various beginner algorithms</p>
+    </header>
+    <main>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Largest # in Array of Arrays</h2>
+            <p>
+              arr1 = [[3, 7, 42, 11],[3, 7, 2, 1],[3, 5, 8, 13],[16, 25, 36,
+              49]]
+            </p>
+            <p>should return the array:</p>
+            <p>[42, 7, 13, 49]</p>
+          </div>
+
+          <div class="flip-card-back">
+            <h2>Largest # in Array of Arrays</h2>
+            <p>function largestNum(arr) {</p>
+            <p>return arr.map(a=> Math.max(...a))</p>
+            <p>}</p>
+            <p>reverseString("hello");</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Reverse a String</h2>
+            <!-- <div class="text"> -->
+            <p>reverseString("Mary Poppins")</p>
+            <p>should return the string:</p>
+            <p>"snippoP yarM"</p>
+            <!-- </div> -->
+          </div>
+
+          <div class="flip-card-back">
+            <h2>Reverse a String</h2>
+            <p>function reverseString(str) {</p>
+            <p>return str.split("").reverse().join("");</p>
+            <p>}</p>
+            <p>reverseString("hello");</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Triangle of Hashtags</h2>
+            <!-- <div class="text"> -->
+            <p>
+              create a triangle of hashtags starting with 1 and ending with 7
+            </p>
+            <p>#</p>
+            <p>##</p>
+            <p>###</p>
+            <p>####</p>
+            <p>#####</p>
+            <p>######</p>
+            <p>#######</p>
+            <!-- </div> -->
+          </div>
+
+          <div class="flip-card-back">
+            <h2>Triangle of Hashtags</h2>
+            <p>let hashtag = "";</p>
+            <p>for (let i=0; i<8; i ++){</p>
+            <p>console.log(hashtag + "#"</p>
+            <p>}</p>
+            <!-- <p>reverseString("hello");</p> -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>Created by Tracye Wilhelm</footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
